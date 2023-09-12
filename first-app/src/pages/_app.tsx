@@ -1,6 +1,8 @@
 import '@/styles/globals.css'
 import '@/styles/home/homepage.css'
 import '@/styles/home/footer.css'
+import '@/styles/home/logo.css'
+import '@/styles/home/welcome.css'
 
 import type { AppProps } from 'next/app'
 

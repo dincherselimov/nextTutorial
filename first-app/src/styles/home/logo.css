@@ -1,0 +1,20 @@
+/* Header.module.css */
+
+.topNav {
+  display: flex;
+  justify-content: space-between; /* Aligns logo to the left */
+  align-items: center;
+  max-width:1340px;
+  margin: 0 auto; 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 170px;
+  height: 70px;
+
+}

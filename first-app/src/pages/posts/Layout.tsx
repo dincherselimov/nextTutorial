@@ -6,8 +6,9 @@ export default function PageLayout({ children }: { children: ReactNode }) {
   return (
     <div>
       <Header />
-      <main>{children}</main>
-      <Footer />
+       <main>{children}</main>
+      {/* <Footer /> */}
+      
     </div>
   );
 }
