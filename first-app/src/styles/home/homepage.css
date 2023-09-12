@@ -1,38 +1,78 @@
-/* Header.css */
+/* Header.module.css or your preferred CSS file */
 
-/* Header container */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+/* Header styles */
+.topHeader {
+  background-color: #0f2457fc;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Navigation styles */
+.topNav {
+  display: flex;
+  align-items: center;
+  max-width: 1300px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hamburger menu icon styles */
+.hamburger {
+  display: none; /* Hidden by default on larger screens */
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Menu styles */
+.topUl {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.topUl li {
+  margin: 0 20px;
+}
+
+.topUl li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Active class for the menu */
+.topUl.open {
+  display: flex; /* Show the menu when open */
+}
+
+/* Responsive CSS for small screens (mobile and tablet) */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show the hamburger menu icon */
+    
   }
-  
-  /* Navigation links */
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  .topNav {
+    justify-content: right; /* Pushes the hamburger to the right */
   }
-  
-  nav li {
-    margin: 0 20px;
+
+  .topUl {
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 95px; /* Adjust as needed */
+    left: 0;
+    background-color: #0f2457fc;
+    width: 100%;
+    opacity: 0; /* Initially hidden */
+    z-index: 1;
   }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
+
+  .topUl.open {
+    opacity: 1; /* Show the menu when open */
   }
-  
-  /* Responsive CSS for small screens */
-  @media (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    nav li {
-      margin: 10px 0;
-    }
+
+  .topUl li {
+    margin: 10px 0;
   }
-  
+}

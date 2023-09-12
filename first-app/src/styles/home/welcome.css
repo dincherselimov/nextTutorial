@@ -1,0 +1,17 @@
+.welcomeSection {
+    background:white;
+    width:100%;
+    height:20rem;
+}
+.welcomeSection p {
+    color:black;
+    font-size:20px;   
+}
+
+.container{
+    max-width:1300px;
+    margin: 0 auto; 
+    padding: 0 20px;
+    padding-top:120px;
+}
+

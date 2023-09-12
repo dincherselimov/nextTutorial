@@ -1,14 +1,13 @@
 import React from "react";
 import Header from "../components/Header";
 import PageLayout from "./Layout";
+import IntroSection from "../components/HomeIntro";
 
 
 export default function HomePage(){
     return (
         <PageLayout>
-           <section>
-             <p>Welcome to my first Next.js App</p>
-           </section>
+          <IntroSection/>
       </PageLayout>
     );
 }
