@@ -1,0 +1,90 @@
+.max-width_projects {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  
+
+  .projects
+  {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /*  Service  */
+
+  .projects {
+    color: #fff;
+    background: #111;
+  }
+  
+  .projects .title::before {
+    background: #fff;
+  }
+  
+
+  .projects .title::after {
+    background: #111;
+    content: "What I Provide ?";
+  }
+  
+  
+  .intern,
+  .project {
+    list-style: none;
+  }
+  
+
+  .project::before {
+    content: "✪ ";
+    color: #1e3551;
+  }
+  
+  
+  /*  Projects  */
+  .projects .title::after {
+    content: "What I did ?";
+  }
+  
+  .projects .carousel .card {
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .projects .carousel .card:hover {
+    background: #1e3551;
+  }
+  
+  .projects .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  .carousel
+  {
+    display:flex;
+  }
+  .projects .carousel .card:hover .box {
+    transform: scale(1.05);
+  }
+  
+  .projects .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+  }
+  
+  .projects .carousel .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #888c8d;
+    transition: all 0.3s ease;
+  }
+  
