@@ -3,6 +3,9 @@ import '@/styles/home/homepage.css'
 import '@/styles/home/footer.css'
 import '@/styles/home/logo.css'
 import '@/styles/home/welcome.css'
+import '@/styles/home/whoAmI.css'
+import '@/styles/home/skills.css'
+import '@/styles/home/projects.css'
 
 import type { AppProps } from 'next/app'
 
