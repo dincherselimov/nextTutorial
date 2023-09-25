@@ -11,45 +11,47 @@ export default function HomeProjects(){
           <div className="card">
             <div className="box">
               <img src="https://source.unsplash.com/720x600/?shopping" alt=""></img>
-              <div className="text">Ecommerce</div>
-              <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div className="text">DCAT-AP</div>
+              <p>#Project Details:<br></br></p>
+              <p>•Test case specification and development for DCAT-AP for a German partner (Bable GmbH).</p>
+              <p> •Testbed development for IoT Protocols based on FI-WARE.</p>
             </div>
           </div>
           <div className="card">
             <div className="box">
               <img src="https://source.unsplash.com/720x600/?portfolio" alt=""></img>
               <div className="text">Portfolio</div>
-              <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>#Project Details:- Personal Web Developer Portfolio.Technologies: JavaScript, React, Next.js</p>
             </div>
           </div>
           <div className="card">
             <div className="box">
               <img src="https://source.unsplash.com/720x600/?blog" alt=""></img>
-              <div className="text">Blog</div>
-              <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div className="text">Newsletter and Trading Platform</div>
+              <p >#Project Details:</p>
+              <p className='newsletter_text'>Successfully designed, developed,<br />
+                and maintained a trading website <br />
+                using WordPress. This project<br />
+                showcased my ability to create<br />
+                user-friendly and visually <br />
+                appealing front-end interfaces. <br />
+                Proficiently processed and <br />
+                maintained user data within the
+                trading platform, ensuring data
+                integrity, security, and
+                accessibility</p>
             </div>
           </div>
           <div className="card">
             <div className="box">
               <img src="https://source.unsplash.com/720x600/?messanger" alt=""></img>
-              <div className="text">Messaging App</div>
-              <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div className="text">PHP Developer (initOS GmbH)</div>
+              <p>#Project Details:</p>
+              <p>Creating and Maintaining high
+                quality PHP code</p>
             </div>
           </div>
-          <div className="card">
-            <div className="box">
-              <img src="https://source.unsplash.com/720x600/?app-clone" alt=""></img>
-              <div className="text">Clone</div>
-              <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="box">
-              <img src="https://source.unsplash.com/720x600/?code,demo" alt=""></img>
-              <div className="text">Demo</div>
-              <p>#Project Details:- Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
+  
         </div>
       </div>
     </section>

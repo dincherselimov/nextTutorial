@@ -9,9 +9,9 @@ export default function HomeSkills() {
           <div className="column left">
             <div className="text">INTERNSHIP</div>
             <ul>
-              <li className="intern">#Company Name "Where You work"</li>
-              <li className="intern">#Company Name "Where You work"</li>
-              <li className="intern">#Company Name "Where You work"</li>
+              <li className="intern">#Company Name ompany Name </li>
+              <li className="intern">#Company Name  ompany Name</li>
+              <li className="intern">#Company Name  ompany Name</li>
             </ul>
 
             <div className="text">PROJECT</div>
@@ -36,7 +36,7 @@ export default function HomeSkills() {
             <div className="text">DEVELOPMENT SKILLS</div>
 
             <p>
-              I'm familiar & work on a daily basis with HTML, CSS, JavaScript,
+              I am familiar & work on a daily basis with HTML, CSS, JavaScript,
               Bootstrap, React js and other modern frameworks.
             </p>
             <a href="https://aistechx.com/" target="blank">

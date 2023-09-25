@@ -13,17 +13,13 @@
   /*  Service  */
 
   .projects {
-    color: #fff;
-    background: #111;
+    color: #0e2355;
+    background: radial-gradient(#fff, #72adf9ab);  
   }
   
-  .projects .title::before {
-    background: #fff;
-  }
   
 
   .projects .title::after {
-    background: #111;
     content: "What I Provide ?";
   }
   
@@ -43,10 +39,10 @@
   /*  Projects  */
   .projects .title::after {
     content: "What I did ?";
+    background:transparent;
   }
   
   .projects .carousel .card {
-    background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -88,3 +84,6 @@
     transition: all 0.3s ease;
   }
   
+.newsletter_text{
+  text-align:left;
+}
