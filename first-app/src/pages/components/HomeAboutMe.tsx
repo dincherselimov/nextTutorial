@@ -18,11 +18,11 @@ export default function HomeAboutMe() {
          />
         </div>
         <div className="column right">
-          <div className="text">I'm Dincher and I'm a Web Developer  <span className="typing-2"></span></div>
+          <div className="text">I am Dincher and I am a Web Developer  <span className="typing-2"></span></div>
           <p>Seeking an entry-level opportunity with an esteemhance lfield of work. Capable of mastering new technologies.</p>
           <br></br>
           <div className="text">Why Work With Me</div>
-          <p>I'm a great communicator & love to invest the necessary time to understand the customer's problem very well.</p>
+          <p>I am a great communicator & love to invest the necessary time to understand the customer&apos;s problem very well.</p>
           <a href="#" target="blank">Download CV</a>
         </div>
       </div>

@@ -7,5 +7,6 @@ export default function Footer() {
         <p>&copy; {new Date().getFullYear()} Your Company Name</p>
       </div>
     </footer>
+    
   );
 }
