@@ -14,7 +14,7 @@
 
   .projects {
     color: #0e2355;
-    background: radial-gradient(#fff, #72adf9ab);  
+    /* background: radial-gradient(#fff, #72adf9ab);   */
   }
   
   
@@ -51,7 +51,7 @@
   }
   
   .projects .carousel .card:hover {
-    background: #1e3551;
+    /* background: #1e3551; */
   }
   
   .projects .carousel .card .box {
@@ -79,11 +79,11 @@
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 30%;
     border: 5px solid #888c8d;
     transition: all 0.3s ease;
   }
   
 .newsletter_text{
-  text-align:left;
+  text-align:center;
 }

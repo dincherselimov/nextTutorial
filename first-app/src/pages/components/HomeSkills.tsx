@@ -7,31 +7,53 @@ export default function HomeSkills() {
         <h2 className="title">My Skills</h2>
         <div className="skills-content">
           <div className="column left">
-            <div className="text">INTERNSHIP</div>
+            <div className="text">Experience</div>
             <ul>
-              <li className="intern">#Company Name ompany Name </li>
-              <li className="intern">#Company Name  ompany Name</li>
-              <li className="intern">#Company Name  ompany Name</li>
-            </ul>
-
-            <div className="text">PROJECT</div>
+              <li className="intern">MANIK-IT:
+              SOFTWARE DEVELOPER AND DEVOPS ENGINEER</li>
+              <li className="intern">Tradants GMBH:
+              WEB DEVELOPER</li>          
+              </ul>
+            
+            <br></br>
+              <div className="text">PROFESSIONALLY ACQUIRED SKILLS</div>
 
             <ul>
-              <li className="project">Portfolio (HTML, CSS, js, Bootstraps)</li>
-              <li className="project">
-                eCommerce Website (Shopify liquid-code, HTML, CSS)
+              <li className="project">Infrastructure Management: Proficient in working with
+                Virtual Machines and maintaining Apache/Nginx
+                servers, ensuring seamless website performance and
+                reliability.
               </li>
               <li className="project">
-                QuickShop - eCommerce Website (Like Amazon, Flipkart etc.)
+                WordPress Expertise: Proficient in creating and
+                maintaining WordPress websites, with a strong
+                understanding of responsive design principles
               </li>
+              <br />
               <li className="project">
-                Fully Responsive Design Email Subscribe form
+                Backend Development: Skilled in PHP development,
+                adept at creating and maintaining PHP code, including
+                Object-Oriented Code, and writing reusable code for
+                improved efficiency.
               </li>
-              <li className="project">Blog (HTML, CSS, Bootstraps)</li>
+              <br />
               <li className="project">
-                Currently Working on a Messaging App (Like WhatsApp)
+                Frontend Development: Familiar with Next.js, adding to
+                my toolkit of frontend technologies for modern web
+                development
+              </li>
+              <br />
+              <li className="project">Web Technologies: Proficient in HTML, CSS, Less, and
+                Tailwind, enabling me to create visually appealing and
+                user-friendly web interfaces</li>
+                <br />
+              <li className="project">
+                Issue Tracking: Proficient in using project management
+                tools such as Jira and Mantis Bug Tracker to maintain
+                efficient workflows and track project progress
               </li>
             </ul>
+            <br />
 
             <div className="text">DEVELOPMENT SKILLS</div>
 
@@ -39,9 +61,7 @@ export default function HomeSkills() {
               I am familiar & work on a daily basis with HTML, CSS, JavaScript,
               Bootstrap, React js and other modern frameworks.
             </p>
-            <a href="https://aistechx.com/" target="blank">
-              Get Educate...
-            </a>
+          
           </div>
           <div className="column right">
             <div className="bars">

@@ -10,7 +10,7 @@ export default function HomeProjects(){
         <div className="carousel owl-carousel">
           <div className="card">
             <div className="box">
-              <img src="https://source.unsplash.com/720x600/?shopping" alt=""></img>
+              <img src="dcat.jpg" alt=""></img>
               <div className="text">DCAT-AP</div>
               <p>#Project Details:<br></br></p>
               <p>•Test case specification and development for DCAT-AP for a German partner (Bable GmbH).</p>
@@ -19,14 +19,14 @@ export default function HomeProjects(){
           </div>
           <div className="card">
             <div className="box">
-              <img src="https://source.unsplash.com/720x600/?portfolio" alt=""></img>
+              <img src="portfolio.jpeg" alt=""></img>
               <div className="text">Portfolio</div>
               <p>#Project Details:- Personal Web Developer Portfolio.Technologies: JavaScript, React, Next.js</p>
             </div>
           </div>
           <div className="card">
             <div className="box">
-              <img src="https://source.unsplash.com/720x600/?blog" alt=""></img>
+              <img src="trading.jpg" alt=""></img>
               <div className="text">Newsletter and Trading Platform</div>
               <p >#Project Details:</p>
               <p className='newsletter_text'>Successfully designed, developed,<br />
@@ -44,7 +44,7 @@ export default function HomeProjects(){
           </div>
           <div className="card">
             <div className="box">
-              <img src="https://source.unsplash.com/720x600/?messanger" alt=""></img>
+              <img src="magento.png" alt=""></img>
               <div className="text">PHP Developer (initOS GmbH)</div>
               <p>#Project Details:</p>
               <p>Creating and Maintaining high
