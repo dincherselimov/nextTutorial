@@ -17,6 +17,7 @@ export default function IntroSection() {
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           />
           <div className="hero">
+         
             <div className="social-links">
               <a href="#" target="_blank">
                 <i className="fab fa-facebook-f"></i>
@@ -36,12 +37,12 @@ export default function IntroSection() {
             </div>
           </div>
         </div>
+        
           </div>
           <div className="dinko">
             <img className="me" src="me.jpg" alt="" />
           </div>
         </div>
-        
       </div>
     </section>
   );

@@ -109,6 +109,7 @@ export default function HomeSkills() {
           </div>
         </div>
       </div>
+      <hr className="hr-bottom"/>
     </section>
   );
 }
