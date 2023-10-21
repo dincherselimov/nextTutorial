@@ -51,9 +51,9 @@ export default function HomeProjects(){
                 quality PHP code</p>
             </div>
           </div>
-  
         </div>
       </div>
+      <hr />
     </section>
     );
 }

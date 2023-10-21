@@ -14,7 +14,7 @@
   }
   /*  Skills  */
   .skills {
-    /* background: radial-gradient(#fff, #4d82c6ab); */
+    background: linear-gradient(to left, #4CA1AF, #FFFFFF5C);
   }
   .skills .title::after {
     content: "—What I Know ?—";

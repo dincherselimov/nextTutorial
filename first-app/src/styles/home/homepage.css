@@ -2,8 +2,7 @@
 
 /* Header styles */
 .topHeader {
-  background-color: #0f2457fc;
-  color: #fff;
+  background: linear-gradient(to left, #F9F9F9, #238B9C5C);  color: #fff;
   padding: 10px 0;
 }
 
@@ -36,9 +35,10 @@
 }
 
 .topUl li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
+  color: black;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 /* Active class for the menu */

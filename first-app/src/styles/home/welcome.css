@@ -6,7 +6,8 @@
     height: 20rem;
     display: flex;
     align-items: center;
-   }
+    background: linear-gradient(to left, #4CA1AF, #FFFFFF5C);
+  }
    
   .welcomeSection p {
     color: #0e2355;
@@ -67,8 +68,7 @@
     top: -90px;
     left: 0;
     background: #000;
-    /* background: linear-gradient(to top, #000046, #1cb5e0);  */
-    background: linear-gradient(to top, #c41414, #000);
+    background: linear-gradient(to top, #000046, #1cb5e0); 
     position: absolute;
     transition: 0.5s;
   }

@@ -6,6 +6,7 @@ import DownloadButton from "./DowloadCV";
 export default function HomeAboutMe() {
   return (
     <section className="about" id="about">
+    <hr className="hr-top"/>
     <div className="max-width">
       <h2 className="title">About Me</h2>
       <div className="about-content">
@@ -27,6 +28,7 @@ export default function HomeAboutMe() {
         </div>
       </div>
     </div>
+    <hr className="hr-bottom"/>
   </section>
   );
 }
