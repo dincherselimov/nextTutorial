@@ -1,15 +1,12 @@
 .welcomeSection {
-    /* background: #005AA7;
-    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);
-    background: radial-gradient(#fff, #4d82c6ab); */
     width: 100%;
     height: 20rem;
     display: flex;
     align-items: center;
-    background: linear-gradient(to left, #4CA1AF, #FFFFFF5C);
   }
-   
-  .welcomeSection p {
+ 
+
+  .welcomeSection h1 {
     color: #0e2355;
     font-size: 32px;
     padding-bottom:20px;

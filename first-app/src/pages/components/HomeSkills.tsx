@@ -23,7 +23,8 @@ export default function HomeSkills() {
                 Virtual Machines and maintaining Apache/Nginx
                 servers, ensuring seamless website performance and
                 reliability.
-              </li>
+              </li>              <br />
+
               <li className="project">
                 WordPress Expertise: Proficient in creating and
                 maintaining WordPress websites, with a strong
@@ -109,7 +110,6 @@ export default function HomeSkills() {
           </div>
         </div>
       </div>
-      <hr className="hr-bottom"/>
     </section>
   );
 }

@@ -1,19 +1,24 @@
-/* Header.module.css or your preferred CSS file */
 
-/* Header styles */
-.topHeader {
-  background: linear-gradient(to left, #F9F9F9, #238B9C5C);  color: #fff;
-  padding: 10px 0;
+.topHeader{
+  height: 80px;
+  display: flex;
+  align-items: center;
 }
-
 /* Navigation styles */
 .topNav {
   display: flex;
   align-items: center;
-  max-width: 1300px; /* Adjust as needed */
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
+  justify-content: flex-end; /* Align items to the right on larger screens */
+  height: 80px;
+  position:fixed;
+  left: 0;
+  right: 0;
 }
+
+
 
 /* Hamburger menu icon styles */
 .hamburger {
@@ -28,6 +33,7 @@
   padding: 0;
   display: flex;
   align-items: center;
+  justify-content: flex-end; /* Align items to the right on larger screens */
 }
 
 .topUl li {
@@ -36,7 +42,6 @@
 
 .topUl li a {
   color: black;
-  text-decoration: underline;
   font-size: 20px;
   font-weight: 400;
 }
@@ -50,12 +55,10 @@
 @media (max-width: 768px) {
   .hamburger {
     display: block; /* Show the hamburger menu icon */
-    
   }
   .topNav {
     justify-content: right; /* Pushes the hamburger to the right */
   }
-
   .topUl {
     flex-direction: column;
     text-align: center;
@@ -67,11 +70,9 @@
     opacity: 0; /* Initially hidden */
     z-index: 1;
   }
-
   .topUl.open {
     opacity: 1; /* Show the menu when open */
   }
-
   .topUl li {
     margin: 10px 0;
   }

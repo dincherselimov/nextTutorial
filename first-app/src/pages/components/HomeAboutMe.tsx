@@ -6,7 +6,6 @@ import DownloadButton from "./DowloadCV";
 export default function HomeAboutMe() {
   return (
     <section className="about" id="about">
-    <hr className="hr-top"/>
     <div className="max-width">
       <h2 className="title">About Me</h2>
       <div className="about-content">
@@ -24,11 +23,10 @@ export default function HomeAboutMe() {
           <br></br>
           <div className="text">Why Work With Me</div>
           <p>I am a great communicator & love to invest the necessary time to understand the customer&apos;s problem very well.</p>
-          <a href="#" target="blank">Download CV</a>
+          <a  target="blank"><DownloadButton/></a>
         </div>
       </div>
     </div>
-    <hr className="hr-bottom"/>
   </section>
   );
 }
