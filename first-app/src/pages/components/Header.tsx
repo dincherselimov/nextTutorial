@@ -2,7 +2,6 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'; // Hamburger menu icon
-import Logo from "./logo";
 
 export default function Header() {
   /**
@@ -20,7 +19,6 @@ export default function Header() {
   return (
     <header className="topHeader">
       <nav className="topNav">
-        <Logo/>
         {/* Hamburger menu icon */}
         <div className="hamburger" onClick={toggleMenu}>
           <FontAwesomeIcon icon={faBars} />
@@ -31,11 +29,11 @@ export default function Header() {
           <li className="topHome">
             <Link href="/">Home</Link>
           </li>
-          <li className="topAbout">
+          {/* <li className="topAbout">
             <Link href="/about">About</Link>
-          </li>
+          </li> */}
           <li className="topContact">
-            <Link href="/contact">Contact</Link>
+            <Link href="/Contact">Contact</Link>
           </li>
         </ul>
       </nav>

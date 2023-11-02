@@ -53,7 +53,6 @@ export default function HomeProjects(){
           </div>
         </div>
       </div>
-      <hr />
     </section>
     );
 }
