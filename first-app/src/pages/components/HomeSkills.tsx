@@ -1,4 +1,5 @@
 import React from "react-dom";
+import HireMeButton from "./HireMeButton";
 
 export default function HomeSkills() {
   return (
@@ -107,9 +108,15 @@ export default function HomeSkills() {
               </div>
               <div className="line django"></div>
             </div>
+            <div>
+            <HireMeButton/>
+            </div>
           </div>
+          <div>
+        </div>
         </div>
       </div>
+     
     </section>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function IntroSection() {
   return (
@@ -39,7 +40,14 @@ export default function IntroSection() {
             </div>
           </div>
           <div className="dinko">
-            <img className="me" src="me.jpg" alt="" />
+            {/* <img className="me" src="me.jpg" alt="" /> */}
+            <Image
+             className="me"
+              src="/me.jpg"
+              width={400}
+              height={400}
+              alt="me"
+            />
           </div>
         </div>
       </div>

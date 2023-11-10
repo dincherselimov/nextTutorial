@@ -51,9 +51,12 @@
   }
   
   .projects .carousel .card:hover {
-    /* background: #1e3551; */
+    background: rgba(17, 17, 17, 0.35);
+    border-radius: 20px;
+  }  
+  .projects-p{
+    font-size:18px;
   }
-  
   .projects .carousel .card .box {
     display: flex;
     flex-direction: column;
