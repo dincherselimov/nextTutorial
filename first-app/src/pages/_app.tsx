@@ -6,6 +6,7 @@ import '@/styles/home/whoAmI.css'
 import '@/styles/home/skills.css'
 import '@/styles/home/projects.css'
 import '@/styles/home/contact.css'
+import '@/styles/home/hiremebutton.css'
 
 import type { AppProps } from 'next/app'
 
